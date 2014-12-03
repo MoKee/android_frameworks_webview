@@ -31,6 +31,8 @@ include $(CLEAR_VARS)
 
 LOCAL_PACKAGE_NAME := webview
 
+LOCAL_DEX_PREOPT := false
+
 LOCAL_MANIFEST_FILE := AndroidManifest.xml
 
 LOCAL_MODULE_TAGS := optional
